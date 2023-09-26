@@ -1,0 +1,65 @@
+
+ion-content {
+    --background: #edf1f5; 
+    --ion-safe-area-top: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  ion-card{
+    
+    top: 7%;
+    background-color: #16164a9b; // Color de fondo blanco para la tarjeta
+    border-radius: 10px; // Radio de borde para la tarjeta
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+  }
+  
+  
+  ion-card-content {
+    background-color: transparent; 
+    padding: 20px;
+    text-align: center;
+    max-width: 90%; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  ion-img {
+    max-width: 100%; 
+    margin-bottom: 20px;
+    max-width: 500px; 
+  }
+  
+  
+  ion-card-subtitle {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+  }
+  
+  
+  ion-input {
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    --color: #001f3f;
+    width: 100%; 
+    max-width: 300px; 
+  }
+  
+  
+  ion-button {
+    --background: #ffd700; 
+    --color: #001f3f; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    width: 100%; 
+    max-width: 300px; 
+  }
+  
